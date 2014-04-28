@@ -1,0 +1,1 @@
+(function(e){e(document).on("ready",function(){e(function(){mySwiper=e(".swiper-container").swiper({mode:"horizontal",loop:!0,autoResize:!0,speed:400,onSlideChangeStart:function(e){}})})})})(jQuery);

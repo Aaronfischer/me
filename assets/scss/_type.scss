@@ -1,0 +1,274 @@
+/*--------------------------------------------------------------------------
+*
+*  Typography
+*
+* This section a set of default forms styles, please add/change these styles.
+* There are actionables here.
+*
+*-------------------------------------------------------------------------*/
+
+$defaultFont: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+$text: 16px;
+$line-height: 1.5em;
+
+
+html {
+    font-size: 62.5%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+body {
+    font-family: $defaultFont;
+    font-size: $text;
+    line-height: $line-height;
+    color: #333333;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-weight: normal;
+    line-height: $line-height;
+}
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small,
+.h1 small,
+.h2 small,
+.h3 small,
+.h4 small,
+.h5 small,
+.h6 small,
+h1 .small,
+h2 .small,
+h3 .small,
+h4 .small,
+h5 .small,
+h6 .small,
+.h1 .small,
+.h2 .small,
+.h3 .small,
+.h4 .small,
+.h5 .small,
+.h6 .small {
+    font-size: 65%;
+    font-weight: normal;
+    line-height: 1;
+    color: #333333;
+}
+
+h1,
+.h1 {
+    font-family:$defaultFont;
+    font-size: 1.75em;
+    line-height:1.2em;
+    margin: .67em 0;
+}
+
+h2,
+.h2 {
+    font-family:$defaultFont;
+    font-size: 1.5em;
+    line-height:1.1em;
+}
+
+h3,
+.h3 {
+    font-family:$defaultFont;
+    font-weight:200;
+    font-size: 1.2em;
+    line-height:1.1em;
+}
+
+h4,
+.h4 {
+    font-family:$defaultFont;
+    font-size: 1em;
+    line-height:1.1em;
+}
+
+h5,
+.h5 {
+    font-family:$defaultFont;
+    text-transform:uppercase;
+    font-weight:900;
+    font-size: 0.9em;
+}
+
+h6,
+.h6 {
+    font-family:$defaultFont;
+    font-size: 0.7em;
+}
+
+p {
+    margin: 0 0 $line-height * 1;
+}
+
+
+
+abbr[title],
+abbr[data-original-title] {
+  cursor: help;
+  border-bottom: 1px dotted #999999;
+}
+
+abbr.initialism {
+  font-size: 90%;
+  text-transform: uppercase;
+}
+
+blockquote{
+}
+
+blockquote p {
+  font-size: 1.5em;
+  line-height: 1.4em;
+}
+
+blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+cite{
+
+}
+
+address {
+    margin-bottom: 20px;
+    font-style: italic;
+    line-height: $line-height;
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+}
+
+code {
+  padding: 2px 4px;
+  font-size: 90%;
+  color: #c7254e;
+  white-space: nowrap;
+  background-color: #f9f2f4;
+  border-radius: 4px;
+}
+
+pre {
+  display: block;
+  padding: 9.5px;
+  margin: 0 0 10px;
+  font-size: 13px;
+  line-height: $line-height;
+  color: #333333;
+  word-break: break-all;
+  word-wrap: break-word;
+  background-color: #f5f5f5;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+
+pre code {
+  padding: 0;
+  font-size: inherit;
+  color: inherit;
+  white-space: pre-wrap;
+  background-color: transparent;
+  border-radius: 0;
+}
+
+.pre-scrollable {
+  max-height: 340px;
+  overflow-y: scroll;
+}
+
+
+
+
+
+
+@font-face {
+  font-family: 'fontello';
+  src: url('../font/fontello.eot?18019665');
+  src: url('../font/fontello.eot?18019665#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff?18019665') format('woff'),
+       url('../font/fontello.ttf?18019665') format('truetype'),
+       url('../font/fontello.svg?18019665#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?18019665#fontello') format('svg');
+  }
+}
+*/
+
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.icon-mail-1:before { content: '\e806'; } /* '' */
+.icon-cog:before { content: '\e80e'; } /* '' */
+.icon-instagramm:before { content: '\e804'; } /* '' */
+.icon-mail:before { content: '\e805'; } /* '' */
+.icon-github-1:before { content: '\e802'; } /* '' */
+.icon-flickr:before { content: '\e801'; } /* '' */
+.icon-twitter:before { content: '\e800'; } /* '' */
+.icon-instagram:before { content: '\e803'; } /* '' */
+.icon-bitbucket:before { content: '\e80f'; } /* '' */
+.icon-mail-2:before { content: '\e807'; } /* '' */
+.icon-heart:before { content: '\e809'; } /* '' */
+.icon-star:before { content: '\e80a'; } /* '' */
+.icon-comment:before { content: '\e80c'; } /* '' */
+.icon-location:before { content: '\e80b'; } /* '' */
+.icon-doc:before { content: '\e80d'; } /* '' */
+.icon-search:before { content: '\e808'; } /* '' */
