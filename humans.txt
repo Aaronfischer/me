@@ -3,13 +3,19 @@
 
 # TEAM
 
-    Aaron Fischer -- Creative and Engineer -- @aaronfischer
+    Aaron Fischer -- Designer and Developer -- @aaronfischer
 
 # THANKS
 
-    <name>
+    SIX Degrees
+    Say it Loud!
+    PRPL.rs
+    Mama's Sauce
+    Valencia College
+    R&B's Welaka BBQ
+    Mojo Interactive
 
 # TECHNOLOGY COLOPHON
 
     HTML5, CSS3
-    Normalize.css, jQuery, Modernizr
+    Normalize.css, jQuery, Modernizr, Swiper.js

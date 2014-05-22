@@ -5,3 +5,21 @@ $yellow: #DABB3A;
 $brown: #472936;
 $green: #1EA061;
 $blue: #296DDE;
+$coral: #f69682;
+
+
+
+@mixin breakpoint($point) {
+  @if $point == desk-max {
+    @media (min-width: $desk-max) { @content; }
+  }
+  @if $point == desk {
+    @media (min-width: $desk) { @content; }
+  }
+  @if $point == pad {
+    @media (min-width:$pad)  { @content; }
+  }
+  @else if $point == phone {
+    @media (max-width:$phone)  { @content; }
+  }
+}

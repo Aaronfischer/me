@@ -116,3 +116,44 @@ Pagination Styles
     /* Specific visible button style: */
 
 }
+
+.swiper-pagination{
+    position:static;
+    .prev,
+    .next{
+        color:black;
+        font-size:1.5em;
+        display:inline-block;
+        position:absolute;
+        top:50%;
+        height:30px;
+        width:auto;
+        z-index:1;
+        opacity:0.1;
+        @include transform(translateY(-50%));
+        @include transition(opacity 0.2s ease);
+        &:hover{
+            opacity:1;
+            @include transition(opacity 0.2s ease);
+        }
+        i {
+            background-color: white;
+            padding: 0.33em 0.25em;
+            @include border-radius(50%);
+        }
+    }
+    .prev{
+        left:1%;
+        i:before{
+            position: relative;
+            left: -0.1em;
+        }
+    }
+    .next{
+        right:1%;
+        i:before{
+            position: relative;
+            right:-0.05em;
+        }
+    }
+}

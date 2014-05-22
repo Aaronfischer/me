@@ -250,3 +250,9 @@ input.ir {
     background-position:center center;
     @include background-size(cover);
 }
+.bg-contain{
+    position:relative;
+    background-repeat:no-repeat;
+    background-position:center center;
+    @include background-size(contain);
+}

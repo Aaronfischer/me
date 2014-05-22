@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>PRPL Boilerplate</title>
+        <title>Aaron Bryce Fischer | GoFisch Design</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
@@ -15,114 +15,214 @@
         <link rel="stylesheet" href="assets/css/style.css">
         <script src="assets/js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
-    <body class="bg-cover">
+    <body class="bg-contain">
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <div class="container">
-            <div class="row cf">
-                <aside class="col-12 pad-col-4 desk-col-3 fw">
+        <div class="container fh">
+            <div class="row fh cf">
+                <aside class="col-16 pad-col-4 desk-col-3 ">
                     <div class="row cf">
-                        <div class="col-12 pad-col-4 desk-col-3 ac">
+                        <div class="col-16 pad-col-4 desk-col-3 ac">
                             <div class="top-img">
-                                <img src="assets/media/img/bg-test.jpg" alt="cover photo">
+                                <div class="swiper-container swiper-profile ac">
+                                    <div class="swiper-wrapper">
+                                         <!-- <div class="swiper-slide">
+                                            <img src="https://farm4.staticflickr.com/3723/9490930072_6b3609f4d9_z.jpg" alt="cover photo">
+                                         </div> -->
+                                    </div>
+                                </div>
                             </div>
-                            <figure class="circle  col-3 pad-col-2 desk-col-1 ci">
+                            <figure class="circle  col-5 pad-col-2 desk-col-1 ci">
                                 <img src="assets/media/img/me.jpg" alt="me">
                             </figure>
                             <div class="vcard">
                                 <h1 class="h3">Aaron Bryce Fischer</h1>
                                 <h2 class="h5">Web Design / Development</h2>
                                 <ul class="social list-unstyled al">
-                                    <li><a href="http://twitter.com/aaronfischer" target="_blank"><i class="icon-twitter"></i>Tweets <span class="fr">243</span></a></li>
-                                    <li><a href="https://www.flickr.com/photos/aaronfischer" target="_blank"><i class="icon-flickr"></i>Photos <span class="fr">1212</span></a></li>
-                                    <li><a href="https://github.com/Aaronfischer" target="_blank"><i class="icon-github-1"></i>Repos <span class="fr">8</span></a></li>
-                                    <li><a href="https://bitbucket.org/aaronfischer" target="_blank"><i class="icon-bitbucket"></i>Repos <span class="fr">8</span></a></li>
+                                    <li class="twitter"><a href="http://twitter.com/aaronfischer" target="_blank"><i class="icon-twitter"></i>Tweets <span class="fr count">0</span></a></li>
+                                    <li class="flickr"><a href="https://www.flickr.com/photos/aaronfischer" target="_blank"><i class="icon-flickr"></i>Photos <span class="fr count">0</span></a></li>
+<!--                                     <li class="instagram"><a href="https://www.instagram.com/aaronfischer" target="_blank"><i class="icon-instagram"></i>Grams <span class="fr count">1212</span></a></li>
+ -->                                    <li class="github"><a href="https://gist.github.com/Aaronfischer" target="_blank"><i class="icon-github-1"></i>Gists <span class="fr count">0</span></a></li>
+<!--                                     <li><a href="https://bitbucket.org/aaronfischer" target="_blank"><i class="icon-bitbucket"></i>Repos <span class="fr">8</span></a></li> -->
                                     <li><a href="mailto:aaron@gofisching.com?subject=Contacting you via your website"><i class="icon-mail-1"></i>Email</a></li>
                                 </ul>
+                                <div class="about-me al">
+                                    <h3 class="h4">About:</h3>
+                                    <div>I am a web designer/developer, hobby-photographer, educator, student, apple nerd, and movie-lover</div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </aside>
-                <section class="col-12 pad-col-12 desk-col-13 fw fr">
-                    <div class="swiper-container ac">
+                <section class="col-16 pad-col-12 desk-col-13 ">
+                    <div class="swiper-container swiper-projects ac">
+                        <nav class="swiper-pagination pagination">
+                            <a href="" class="prev"><i class="icon-left-open-big"></i></a>
+                            <a href="" class="next"><i class="icon-right-open-big"></i></a>
+                        </nav>
                         <div class="swiper-wrapper">
 
                             <!--First Slide-->
-                            <div class="swiper-slide bg-cover slide-mmi" style="background-image:url(assets/media/img/work/mmi.png);">
-                                <div class="pos-ab">
-                                    <div class="col-12 ci">
-                                        <header class="row  padding-2 al cf">
-                                            <div class="col-9">
-                                                <h3 class="h4">Modernizing Medicine <span class="h6">Development | Wordpress | FrontEnd | BackEnd</span></h3>
+                            <div class="swiper-slide bg-contain slide-bdg">
+                                <div class="img row cf bg-contain" style="background-image:url(assets/media/img/work/bdg.png);"></div>
+                                <div class="row cf pos-ab">
+                                    <div class="col-16 pad-col-12 ci">
+                                        <header class="row al cf">
+                                            <div class="col-16 pad-col-9">
+                                                <div class="padding-side-2">
+                                                    <h3 class="h4">Bonnett Design Group <span class="h6">Development | Wordpress | Frontend | Backend</span></h3>
+                                                </div>
                                             </div>
-                                            <div class="col-3">
-                                                <a href="#" class="btn" target="_blank">Visit Site</a>
-                                            </div>
-                                        </header>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="swiper-slide bg-cover slide-bdg" style="background-image:url(assets/media/img/work/bdg.png);">
-                                <div class="pos-ab">
-                                    <div class="col-12 ci">
-                                        <header class="row  padding-2 al cf">
-                                            <div class="col-9">
-                                                <h3 class="h4">Bonnett Design Group <span class="h6">Development | Wordpress | FrontEnd | BackEnd</span></h3>
-                                            </div>
-                                            <div class="col-3">
-                                                <a href="#" class="btn" target="_blank">Visit Site</a>
+                                            <div class="col-16 pad-col-3">
+                                                <div class="padding-side-2">
+                                                    <a href="http://www.bonnettdesigngroup.com" class="btn fr" target="_blank">Visit Site</a>
+                                                </div>
                                             </div>
                                         </header>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="swiper-slide bg-cover slide-said" style="background-image:url(assets/media/img/work/said.png);">
-                                <div class="pos-ab">
-                                    <div class="col-12 ci">
-                                        <header class="row  padding-2 al cf">
-                                            <div class="col-9">
-                                                <h3 class="h4">Scott Architecture Interior Design <span class="h6">Design | Development | Wordpress | FrontEnd | BackEnd</span></h3>
+                            <div class="swiper-slide bg-contain slide-wedding">
+                                <div class="img row cf bg-contain" style="background-image:url(assets/media/img/work/wedding.png);"></div>
+                                <div class="row cf pos-ab">
+                                    <div class="col-16 pad-col-12 ci">
+                                        <header class="row  al cf">
+                                            <div class="col-16 pad-col-9">
+                                                <div class="padding-side-2">
+                                                    <h3 class="h4">Wedding <span class="h6">Design | Branding | Letterpress</span></h3>
+                                                </div>
                                             </div>
-                                            <div class="col-3">
-                                                <a href="#" class="btn" target="_blank">Visit Site</a>
-                                            </div>
-                                        </header>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="swiper-slide bg-cover slide-dome" style="background-image:url(assets/media/img/work/dome.png);">
-                                <div class="pos-ab">
-                                    <div class="col-12 ci">
-                                        <header class="row  padding-2 al cf">
-                                            <div class="col-9">
-                                                <h3 class="h4">RMCAD | The Dome <span class="h6">Development | Drupal | FrontEnd | BackEnd</span></h3>
-                                            </div>
-                                            <div class="col-3">
-                                                <a href="#" class="btn" target="_blank">Visit Site</a>
+                                            <div class="col-16 pad-col-3">
+                                                <div class="padding-side-2">
+                                                    <a href="https://www.facebook.com/mamassauce/photos/a.379061322209.157805.360217092209/10151652833417210" class="btn fr" target="_blank">See More</a>
+                                                </div>
                                             </div>
                                         </header>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="swiper-slide bg-cover slide-fhfc" style="background-image:url(assets/media/img/work/fhfcdirectory.png);">
-                                <div class="pos-ab">
+<!--                             <div class="swiper-slide bg-contain slide-mmi">
+                                <div class="img row cf bg-contain" style="background-image:url(assets/media/img/work/mmi.png);"></div>
+                                <div class="row cf pos-ab">
                                     <div class="col-12 ci">
-                                        <header class="row  padding-2 al cf">
+                                        <header class="row  al cf">
                                             <div class="col-9">
-                                                <h3 class="h4">Florida Hospital for Children | Specialist Directory <span class="h6">Design | Development | Web App | FrontEnd | BackEnd</span></h3>
+                                                <div class="padding-side-2">
+                                                    <h3 class="h4">Modernizing Medicine <span class="h6">Development | Wordpress | Frontend | Backend</span></h3>
+                                                </div>
                                             </div>
                                             <div class="col-3">
-                                                <a href="#" class="btn" target="_blank">Visit Site</a>
+                                                <div class="padding-side-2">
+                                                    <a href="#" class="btn fr" target="_blank">Visit Site</a>
+                                                </div>
+                                            </div>
+                                        </header>
+                                    </div>
+                                </div>
+                            </div> -->
+
+                            <div class="swiper-slide bg-contain slide-said">
+                                <div class="img row cf bg-contain" style="background-image:url(assets/media/img/work/said.png);"></div>
+                                <div class="row cf pos-ab">
+                                    <div class="col-16 pad-col-12 ci">
+                                        <header class="row  al cf">
+                                            <div class="col-16 pad-col-9">
+                                                <div class="padding-side-2">
+                                                    <h3 class="h4">Scott Architecture Interior Design <span class="h6">Design | Development | Wordpress | Frontend | Backend</span></h3>
+                                                </div>
+                                            </div>
+                                            <div class="col-16 pad-col-3">
+                                                <div class="padding-side-2">
+                                                    <a href="http://scottarchitects.com/" class="btn fr" target="_blank">Visit Site</a>
+                                                </div>
                                             </div>
                                         </header>
                                     </div>
                                 </div>
                             </div>
+
+                            <div class="swiper-slide bg-cover slide-poster">
+                                <div class="img row cf bg-cover" style="background-image:url(assets/media/img/work/poster.png);"></div>
+                                <div class="row cf pos-ab">
+                                    <div class="col-16 pad-col-12 ci">
+                                        <header class="row  al cf">
+                                            <div class="col-16 pad-col-9">
+                                                <div class="padding-side-2">
+                                                    <h3 class="h4">Event Poster <span class="h6">Design | Screenprint</span></h3>
+                                                </div>
+                                            </div>
+                                            <div class="col-16 pad-col-3">
+                                                <div class="padding-side-2">
+                                                    <!-- <a href="#" class="btn fr" target="_blank">Visit Site</a> -->
+                                                </div>
+                                            </div>
+                                        </header>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide bg-contain slide-dome">
+                                <div class="img row cf bg-contain" style="background-image:url(assets/media/img/work/dome.png);"></div>
+                                <div class="row cf pos-ab">
+                                    <div class="col-16 pad-col-12 ci">
+                                        <header class="row  al cf">
+                                            <div class="col-16 pad-col-9">
+                                                <div class="padding-side-2">
+                                                    <h3 class="h4">RMCAD | The Dome <span class="h6">Development | Drupal | Frontend | Backend</span></h3>
+                                                </div>
+                                            </div>
+                                            <div class="col-16 pad-col-3">
+                                                <div class="padding-side-2">
+                                                    <a href="http://dome.rmcad.edu" class="btn fr" target="_blank">Visit Site</a>
+                                                </div>
+                                            </div>
+                                        </header>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide bg-contain slide-branding">
+                                <div class="img row cf bg-contain" style="background-image:url(assets/media/img/work/branding.png);"></div>
+                                <div class="row cf pos-ab">
+                                    <div class="col-16 pad-col-12 ci">
+                                        <header class="row  al cf">
+                                            <div class="col-16 pad-col-9">
+                                                <div class="padding-side-2">
+                                                    <h3 class="h4">Misc Branding <span class="h6">Design | Branding</span></h3>
+                                                </div>
+                                            </div>
+                                            <div class="col-16 pad-col-3">
+                                                <div class="padding-side-2">
+                                                    <!-- <a href="#" class="btn fr" target="_blank">Visit Site</a> -->
+                                                </div>
+                                            </div>
+                                        </header>
+                                    </div>
+                                </div>
+                            </div>
+
+<!--                             <div class="swiper-slide bg-contain slide-fhfc">
+                                <div class="img row cf bg-contain" style="background-image:url(assets/media/img/work/fhfcdirectory.png);"></div>
+                                <div class="row cf pos-ab">
+                                    <div class="col-12 ci">
+                                        <header class="row  al cf">
+                                            <div class="col-9">
+                                                <div class="padding-side-2">
+                                                    <h3 class="h4">Florida Hospital for Children | Specialist Directory <span class="h6">Design | Development | Web App | Frontend | Backend</span></h3>
+                                                </div>
+                                            </div>
+                                            <div class="col-3">
+                                                <div class="padding-side-2">
+                                                    <a href="#" class="btn fr" target="_blank">Visit Site</a>
+                                                </div>
+                                            </div>
+                                        </header>
+                                    </div>
+                                </div>
+                            </div> -->
 
                         </div>
                     </div>
@@ -180,7 +280,7 @@
             e=o.createElement(i);r=o.getElementsByTagName(i)[0];
             e.src='//www.google-analytics.com/analytics.js';
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
+            ga('create','UA-29197709-1');ga('send','pageview');
         </script>
     </body>
 </html>

@@ -19,12 +19,7 @@ $phone : 649px;
 }
 
 .row{
-	width:(100% + ($gutterWidth * 2));
-	margin-left:-$gutterWidth;
-	> [class*="col-"]{
-		padding-left:$gutterWidth;
-		padding-right:$gutterWidth;
-	}
+	width:100%;
 }
 
 [class*="col-"] {
@@ -34,7 +29,7 @@ $phone : 649px;
 
 	/* demo purposes */
 		.show-grid [class*="col-"]{
-			background-color: #EEEEEE;
+			background-color: rgba(black,0.1);
 			border-radius: 5px;
 			line-height: 40px;
 			min-height: 40px;

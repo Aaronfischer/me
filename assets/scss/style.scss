@@ -26,26 +26,29 @@ body{
         overflow-y:auto;
     }
 }
-.container{
+.fh{
     height:100%;
 }
-.row{
-    height:100%;
-}
+// .row{
+//     height:100%;
+// }
 section{
     position:relative;
     height:100%;
 }
 aside{
     // position:fixed;
-    height:100%;
+    height:auto;
     left:0;
     right:0;
     top:0;
     bottom:0;
     overflow-y:auto;
     overflow-x:hidden;
-    background-color:$red;
+    background-color:rgba(black,0.3);
+    @include breakpoint(pad){
+        height:100%;
+    }
     .row &.fw{
         padding-left:0;
         padding-right:0;
@@ -55,6 +58,15 @@ section{
     .row &.fw{
         padding-left:0;
         padding-right:0;
+    }
+}
+
+.top-img{
+    position:relative;
+    height:auto;
+    padding-bottom:66.25%;
+    .swiper-container{
+        position:absolute;
     }
 }
 
@@ -65,24 +77,35 @@ section{
         text-shadow:0 1px 1px rgba(black,0.2);
     }
     h1{
-        margin-top:0;
+        margin-top:-10%;
         margin-bottom:0;
     }
     .h5{
         font-size:0.75em;
     }
+    .about-me{
+        padding:5%;
+        h3{
+            // margin-top:0;
+            margin-bottom:0.5em;
+        }
+        div{
+            font-size:0.8em;
+        }
+    }
     .social{
         margin-top:15%;
         li{
+            position:relative;
             &:first-child{
                 a{
-                    border-top:1px solid rgba(black,0.1);
+                    border-top:1px solid rgba(black,0.075);
                 }
             }
             i{
                 font-size:1.3em;
                 position:absolute;
-                left:1%;
+                left:3%;
             }
             span{
                 font-size:0.9em;
@@ -92,7 +115,7 @@ section{
                 display:block;
                 padding:15px 20px;
                 padding-left:21%;
-                border-bottom:1px solid rgba(black,0.15);
+                border-bottom:1px solid rgba(black,0.075);
                 text-shadow:0 1px 1px rgba(black,0.2);
                 @include transition(color 0.3s ease);
                 &:hover{
@@ -111,20 +134,34 @@ section{
 .padding-2{
     padding:2%;
 }
+.padding-side-2{
+    padding-left:2%;
+    padding-right:2%;
+}
 .swiper-slide{
     header{
         background-color:white;
+        padding-top:1%;
+        padding-bottom:1%;
     }
     .pos-ab{
         position:absolute;
         bottom:0;
-        width:100%;
+        height:auto;
+        // width:100%;
     }
 }
 
+.swiper-slide{
+    .img{
+        height:90%;
+    }
+}
 .slide-mmi{
-    background-position: center center;
-    background-color:$slate;
+    // .img{
+        background-position: center center;
+        background-color:$slate;
+    // }
 }
 .slide-said{
     background-position: center center;
@@ -136,9 +173,21 @@ section{
 }
 .slide-bdg{
     background-position: center center;
-    background-color:$red;
+    background-color:$blue;
 }
 .slide-fhfc{
     background-position: center center;
     background-color:$green;
+}
+.slide-poster{
+    background-position: center center;
+    background-color:rgba(#eee,1);
+}
+.slide-branding{
+    background-position:center center;
+    background-color:rgba($slate,0.15);
+}
+.slide-wedding{
+    background-position:center center;
+    background-color:$coral;
 }
