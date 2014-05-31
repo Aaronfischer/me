@@ -64,6 +64,26 @@
                         <div class="swiper-wrapper">
 
                             <!--First Slide-->
+                            <div class="swiper-slide bg-contain slide-mmi">
+                                <div class="img row cf bg-contain" style="background-image:url(assets/media/img/work/mmi.png);"></div>
+                                <div class="row cf pos-ab">
+                                    <div class="col-16 pad-col-12 ci">
+                                        <header class="row  al cf">
+                                            <div class="col-16 pad-col-9">
+                                                <div class="padding-side-2">
+                                                    <h3 class="h4">Modernizing Medicine <span class="h6">Development | Wordpress | Frontend | Backend</span></h3>
+                                                </div>
+                                            </div>
+                                            <div class="col-16 pad-col-3">
+                                                <div class="padding-side-2">
+                                                    <a href="http://modmed.com" class="btn fr" target="_blank">Visit Site</a>
+                                                </div>
+                                            </div>
+                                        </header>
+                                    </div>
+                                </div>
+                            </div>
+
                             <div class="swiper-slide bg-contain slide-bdg">
                                 <div class="img row cf bg-contain" style="background-image:url(assets/media/img/work/bdg.png);"></div>
                                 <div class="row cf pos-ab">
@@ -97,26 +117,6 @@
                                             <div class="col-16 pad-col-3">
                                                 <div class="padding-side-2">
                                                     <a href="https://www.facebook.com/mamassauce/photos/a.379061322209.157805.360217092209/10151652833417210" class="btn fr" target="_blank">See More</a>
-                                                </div>
-                                            </div>
-                                        </header>
-                                    </div>
-                                </div>
-                            </div>
-
-                             <div class="swiper-slide bg-contain slide-mmi">
-                                <div class="img row cf bg-contain" style="background-image:url(assets/media/img/work/mmi.png);"></div>
-                                <div class="row cf pos-ab">
-                                    <div class="col-16 pad-col-12 ci">
-                                        <header class="row  al cf">
-                                            <div class="col-16 pad-col-9">
-                                                <div class="padding-side-2">
-                                                    <h3 class="h4">Modernizing Medicine <span class="h6">Development | Wordpress | Frontend | Backend</span></h3>
-                                                </div>
-                                            </div>
-                                            <div class="col-16 pad-col-3">
-                                                <div class="padding-side-2">
-                                                    <a href="http://modmed.com" class="btn fr" target="_blank">Visit Site</a>
                                                 </div>
                                             </div>
                                         </header>
