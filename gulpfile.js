@@ -6,6 +6,7 @@ var gulp = require('gulp'),
     jshint = require('gulp-jshint'),
     uglify = require('gulp-uglify'),
     imagemin = require('gulp-imagemin'),
+    pngcrush = require('imagemin-pngcrush'),
     rename = require('gulp-rename'),
     clean = require('gulp-clean'),
     concat = require('gulp-concat'),
@@ -25,31 +26,31 @@ gulp.task('styles', function() {
     .pipe(notify({ message: 'Styles task complete' }));
 });
 
-// gulp.task('scripts', function() {
-//   return gulp.src('assets/js/**/(!plugin.js)')
-//     // .pipe(jshint('.jshintrc'))
-//     .pipe(jshint.reporter('default'))
-//     .pipe(concat('pluginss.js'))
-//     .pipe(rename({suffix: '.min'}))
-//     .pipe(gulp.dest('assets/js'))
-//     .pipe(uglify())
-//     .pipe(gulp.dest('assets/js'))
-//     .pipe(notify({ message: 'Scripts task complete' }));
-// });
+gulp.task('scripts', function() {
+  return gulp.src(['assets/js/plugins.js', 'assets/js/vendor/*.js'])
+    // .pipe(jshint('.jshintrc'))
+    // .pipe(jshint.reporter('default'))
+    .pipe(concat('plugins.js'))
+    .pipe(rename({suffix: '.min'}))
+    .pipe(gulp.dest('assets/js'))
+    .pipe(uglify())
+    .pipe(gulp.dest('assets/js'))
+    .pipe(notify({ message: 'Scripts task complete' }));
+});
 
 gulp.task('images', function() {
   return gulp.src('assets/media/img/**/*')
-    .pipe(cache(imagemin({ optimizationLevel: 5, progressive: true, interlaced: true })))
+    .pipe(cache(imagemin({ optimizationLevel: 3, progressive: true, interlaced: true })))
     .pipe(gulp.dest('assets/media/img'))
     .pipe(notify({ message: 'Images task complete' }));
 });
 
-gulp.task('clean', function() {
-  return gulp.src(['assets/css', 'assets/js', 'assets/media/img'], {read: false})
-    .pipe(clean());
-});
+// gulp.task('clean', function() {
+//   return gulp.src(['assets/css', 'assets/js', 'assets/media/img'], {read: false})
+//     .pipe(clean());
+// });
 
-gulp.task('default', ['clean'], function() {
+gulp.task('default', function() {
     gulp.start('styles', 'scripts', 'images');
 });
 
@@ -59,7 +60,7 @@ gulp.task('watch', function() {
   gulp.watch('assets/scss/**/*.scss', ['styles']);
 
   // Watch .js files
-  // gulp.watch('assets/js/**/*.js', ['scripts']);
+  gulp.watch('assets/js/**/*.js', ['scripts']);
 
   // Watch image files
   gulp.watch('assets/media/img/**/*', ['images']);

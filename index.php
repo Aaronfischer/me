@@ -12,12 +12,12 @@
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/style.min.css">
         <script src="assets/js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body class="bg-contain">
         <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+            <p class="browsehappy">Whoa! You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <div class="container fh">
             <div class="row fh cf">
@@ -27,9 +27,9 @@
                             <div class="top-img">
                                 <div class="swiper-container swiper-profile ac">
                                     <div class="swiper-wrapper">
-                                         <!-- <div class="swiper-slide">
+                                         <div class="swiper-slide">
                                             <img src="https://farm4.staticflickr.com/3723/9490930072_6b3609f4d9_z.jpg" alt="cover photo">
-                                         </div> -->
+                                         </div>
                                     </div>
                                 </div>
                             </div>
@@ -184,6 +184,26 @@
                                 </div>
                             </div>
 
+                            <div class="swiper-slide bg-contain slide-fns">
+                                <div class="img row cf bg-contain" style="background-image:url(assets/media/img/work/fns.png);"></div>
+                                <div class="row cf pos-ab">
+                                    <div class="col-16 pad-col-12 ci">
+                                        <header class="row  al cf">
+                                            <div class="col-16 pad-col-9">
+                                                <div class="padding-side-2">
+                                                    <h3 class="h4">Farina and Sons <span class="h6">Development | Wordpress | Frontend | Backend</span></h3>
+                                                </div>
+                                            </div>
+                                            <div class="col-16 pad-col-3">
+                                                <div class="padding-side-2">
+                                                    <a href="http://farinaandsons.com" class="btn fr" target="_blank">Visit Site</a>
+                                                </div>
+                                            </div>
+                                        </header>
+                                    </div>
+                                </div>
+                            </div>
+
                             <div class="swiper-slide bg-contain slide-branding">
                                 <div class="img row cf bg-contain" style="background-image:url(assets/media/img/work/branding.png);"></div>
                                 <div class="row cf pos-ab">
@@ -268,9 +288,8 @@
 
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-        <!-- <script src="//ajax.googleapis.com/ajax/libs/jquerymobile/1.4.2/jquery.mobile.min.js"></script> -->
         <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.1.0.min.js"><\/script>')</script>
-        <script src="assets/js/plugins.js"></script>
+        <script src="assets/js/plugins.min.js"></script>
         <script src="assets/js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
