@@ -27,9 +27,9 @@
                             <div class="top-img">
                                 <div class="swiper-container swiper-profile ac">
                                     <div class="swiper-wrapper">
-                                         <div class="swiper-slide">
+<!--                                          <div class="swiper-slide">
                                             <img src="https://farm4.staticflickr.com/3723/9490930072_6b3609f4d9_z.jpg" alt="cover photo">
-                                         </div>
+                                         </div> -->
                                     </div>
                                 </div>
                             </div>
