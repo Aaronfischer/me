@@ -303,7 +303,5 @@
             ga('send', 'pageview');
 
         </script>
-
-        </script>
     </body>
 </html>
