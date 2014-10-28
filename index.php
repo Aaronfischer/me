@@ -247,12 +247,11 @@
                                         <header class="row  al cf">
                                             <div class="col-16 pad-col-9">
                                                 <div class="padding-side-2">
-                                                    <h3 class="h4">Florida Hospital for Children | Specialist Directory <span class="h6">Design | Development | Web App | Frontend | Backend</span></h3>
+                                                    <h3 class="h4">FHFC | Specialist Directory <span class="h6">Design | Development | Web App | Frontend | Backend</span></h3>
                                                 </div>
                                             </div>
                                             <div class="col-16 pad-col-3">
                                                 <div class="padding-side-2">
-                                                    <!-- <a href="" class="btn fr" target="_blank">Visit Site</a> -->
                                                 </div>
                                             </div>
                                         </header>

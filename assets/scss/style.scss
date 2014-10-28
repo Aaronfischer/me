@@ -158,10 +158,8 @@ section{
     }
 }
 .slide-mmi{
-    // .img{
-        background-position: center center;
-        background-color:$slate;
-    // }
+    background-position: center center;
+    background-color:rgba($prpl,0.75);
 }
 .slide-said{
     background-position: center center;
@@ -177,7 +175,7 @@ section{
 }
 .slide-fhfc{
     background-position: center center;
-    background-color:$green;
+    background-color:$orange;
 }
 .slide-poster{
     background-position: center center;
@@ -194,4 +192,8 @@ section{
 .slide-fns{
     background-position:center center;
     background-color:rgba($blue,0.5);
+}
+.slide-gitcommit{
+    background-position:center center;
+    background-color:rgba($teal,0.5);
 }
