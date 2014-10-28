@@ -11,6 +11,22 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="apple-touch-icon" sizes="57x57" href="/assets/media/img/favicon/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/assets/media/img/favicon/apple-touch-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/assets/media/img/favicon/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/assets/media/img/favicon/apple-touch-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="/assets/media/img/favicon/apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/assets/media/img/favicon/apple-touch-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/assets/media/img/favicon/apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/assets/media/img/favicon/apple-touch-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/media/img/favicon/apple-touch-icon-180x180.png">
+        <link rel="icon" type="image/png" href="/assets/media/img/favicon/favicon-192x192.png" sizes="192x192">
+        <link rel="icon" type="image/png" href="/assets/media/img/favicon/favicon-160x160.png" sizes="160x160">
+        <link rel="icon" type="image/png" href="/assets/media/img/favicon/favicon-96x96.png" sizes="96x96">
+        <link rel="icon" type="image/png" href="/assets/media/img/favicon/favicon-16x16.png" sizes="16x16">
+        <link rel="icon" type="image/png" href="/assets/media/img/favicon/favicon-32x32.png" sizes="32x32">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/assets/media/img/favicon/mstile-144x144.png">
 
         <link rel="stylesheet" href="assets/css/style.min.css">
         <script src="assets/js/vendor/modernizr-2.6.2.min.js"></script>
@@ -224,25 +240,45 @@
                                 </div>
                             </div>
 
-<!--                             <div class="swiper-slide bg-contain slide-fhfc">
+                            <div class="swiper-slide bg-contain slide-fhfc">
                                 <div class="img row cf bg-contain" style="background-image:url(assets/media/img/work/fhfcdirectory.png);"></div>
                                 <div class="row cf pos-ab">
-                                    <div class="col-12 ci">
+                                    <div class="col-16 pad-col-12 ci">
                                         <header class="row  al cf">
-                                            <div class="col-9">
+                                            <div class="col-16 pad-col-9">
                                                 <div class="padding-side-2">
                                                     <h3 class="h4">Florida Hospital for Children | Specialist Directory <span class="h6">Design | Development | Web App | Frontend | Backend</span></h3>
                                                 </div>
                                             </div>
-                                            <div class="col-3">
+                                            <div class="col-16 pad-col-3">
                                                 <div class="padding-side-2">
-                                                    <a href="#" class="btn fr" target="_blank">Visit Site</a>
+                                                    <!-- <a href="" class="btn fr" target="_blank">Visit Site</a> -->
                                                 </div>
                                             </div>
                                         </header>
                                     </div>
                                 </div>
-                            </div> -->
+                            </div>
+
+                            <div class="swiper-slide bg-contain slide-gitcommit">
+                                <div class="img row cf bg-contain" style="background-image:url(assets/media/img/work/gitcommit.png);"></div>
+                                <div class="row cf pos-ab">
+                                    <div class="col-16 pad-col-12 ci">
+                                        <header class="row  al cf">
+                                            <div class="col-16 pad-col-9">
+                                                <div class="padding-side-2">
+                                                    <h3 class="h4">gitcommit-m | Sideproject <span class="h6">Design | Development | Web App | Frontend | Backend</span></h3>
+                                                </div>
+                                            </div>
+                                            <div class="col-16 pad-col-3">
+                                                <div class="padding-side-2">
+                                                    <a href="http://gitcommit-m.com" class="btn fr" target="_blank">Visit Site</a>
+                                                </div>
+                                            </div>
+                                        </header>
+                                    </div>
+                                </div>
+                            </div>
 
                         </div>
                     </div>
@@ -301,7 +337,6 @@
 
             ga('create', 'UA-51458817-2', 'gofisching.com');
             ga('send', 'pageview');
-
         </script>
     </body>
 </html>
