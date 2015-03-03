@@ -314,7 +314,6 @@ fieldset[disabled] .checkbox-inline {
 .validation_error {
   display:none;
   @extend .alert;
-  @extend .alert-danger;
 }
 .validation_message{
     font-size: 0.6em;

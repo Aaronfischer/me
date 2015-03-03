@@ -80,6 +80,26 @@
                         <div class="swiper-wrapper">
 
                             <!--First Slide-->
+                            <div class="swiper-slide bg-contain slide-wedrinkin">
+                                <div class="img row cf bg-contain" style="background-image:url(assets/media/img/work/wedrinkin.png);"></div>
+                                <div class="row cf pos-ab">
+                                    <div class="col-16 pad-col-12 ci">
+                                        <header class="row  al cf">
+                                            <div class="col-16 pad-col-9">
+                                                <div class="padding-side-2">
+                                                    <h3 class="h4">WeDrinkin' <span class="h6">Development | Design | iOS | PhoneGap</span></h3>
+                                                </div>
+                                            </div>
+                                            <div class="col-16 pad-col-3">
+                                                <div class="padding-side-2">
+                                                    <a href="https://appsto.re/us/SdCL4.i" class="btn fr" target="_blank">Download App</a>
+                                                </div>
+                                            </div>
+                                        </header>
+                                    </div>
+                                </div>
+                            </div>
+
                             <div class="swiper-slide bg-contain slide-mmi">
                                 <div class="img row cf bg-contain" style="background-image:url(assets/media/img/work/mmi.png);"></div>
                                 <div class="row cf pos-ab">
