@@ -150,6 +150,11 @@ section{
         height:auto;
         // width:100%;
     }
+    .btn{
+        @include breakpoint(phone) {
+            float:none;
+        }
+    }
 }
 
 .swiper-slide{
