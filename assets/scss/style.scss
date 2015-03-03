@@ -23,7 +23,8 @@ body{
     background:white;
     >.container{
         overflow-x:hidden;
-        overflow-y:auto;
+        overflow-y: scroll; /* has to be scroll, not auto */
+        -webkit-overflow-scrolling: touch;
     }
 }
 .fh{
